@@ -14,7 +14,7 @@ end
 
 rooms = [1, 2, 3, 4, 5, 6, 7]
 def assign_rooms
-  speakers.each_with_index
+  speakers.each_with_index.map
 end
 
 def printer
