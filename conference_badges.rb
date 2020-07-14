@@ -24,4 +24,4 @@ def printer(speakers)
     puts badge
 end
 
-assign_rooms
+assign_rooms(speakers).each do |
