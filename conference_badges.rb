@@ -11,7 +11,7 @@ end
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 rooms = [1,2,3,4,5,6,7]
 def assign_rooms(attendees)
-  attendeess.each_with_index.map {|attendee, index| "Hello, #{attendee}! You'll be assigned to room #{index+1}!"}
+  attendees.each_with_index.map {|attendee, index| "Hello, #{attendee}! You'll be assigned to room #{index+1}!"}
 end
 
 def printer(attendees)
