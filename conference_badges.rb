@@ -1,8 +1,8 @@
 # Write your code here.
 
-badge_maker = ["Edsger","Ada","Charles","Alan","Grace","Linus", "Matz"]
+speaker = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-badge_maker.each do |name|
+badge_maker.each do |speaker|
   puts "Hello, my name is #{name}."
 end
 
