@@ -9,7 +9,7 @@ end
 speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def batch_badge_creator(speakers)
-  speakers.collect {|speakers|
+  speakers.collect {|speaker| badge_maker(speaker)
 end
 
 def assign_rooms
